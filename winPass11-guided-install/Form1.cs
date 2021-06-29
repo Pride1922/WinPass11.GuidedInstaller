@@ -28,6 +28,11 @@ namespace winPass11_guided_install
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -48,8 +53,14 @@ namespace winPass11_guided_install
             progress++;
             loadNext();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            progress--;
+            loadNext();
+        }
         public void loadNext()
-        { 
+        {
             switch (progress)
             {
                 case 1:
@@ -61,30 +72,23 @@ namespace winPass11_guided_install
                     button1.Enabled = false;
                     label1.Text = "Refer to image and box for directions";
                     richTextBox1.Text = "Ah, now we are at the stage to update the system, this stage is simple,\n First go to Settings -> Update and security -> Windows insider program\nAnd ensure you are in the Dev Channel\nThen scroll up and click windows update in the left bar and click check now, if everything went well you should see downloading windows 11 insider preview, but dont leave just yet, we still need to bypass the requirements!";
-                    richTextBox1.Font = new Font("Microsoft Sans Serif", 12, FontStyle.Regular);
                     break;
                 case 3:
                     button1.Enabled = true;
                     button1.Text = "Replace";
                     label1.Text = "Replace appraiserres.dll";
                     richTextBox1.Text = "How much longer must the agony go o-\nI mean hi there! so now you have to wait for the install to fail, sounds cruel right? well once the window that says install failed due to tpm 2.0 comes up, close that out and press this button";
-                    button3.Text = "Next -->";
                     break;
                 case 4:
                     button1.Enabled = false;
                     label1.Text = "Refer to image and box for directions";
                     richTextBox1.Text = "This is the last step! All that needs to be done is for you to go back to the update screen and Click \"Check for Updates\" or \"Fix now\" or whatever there is in place of that button now. After this is should work and it is safe to close this application";
-                    button3.Text = "Close app";
+                    button3.Text = "Finish";
                     break;
                 case 5:
                     Application.Exit();
                     break;
             }
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

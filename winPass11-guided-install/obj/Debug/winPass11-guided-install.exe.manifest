@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="winPass11-guided-install.exe" size="13304">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="winPass11-guided-install.exe" size="13816">
       <assemblyIdentity name="winPass11-guided-install" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OnjHhp38X846eiZ7qiJ3qTpE5AJUrD6tkZDPqzMVCCc=</dsig:DigestValue>
+        <dsig:DigestValue>TbJzFtEHyZofYhbvQDKs6wmaUhZqxMEjd8N2oLLdMoE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

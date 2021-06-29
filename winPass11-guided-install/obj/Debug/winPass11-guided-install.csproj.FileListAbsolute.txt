@@ -12,3 +12,17 @@ C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-instal
 C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\bin\Debug\winPass11-guided-install.application
 C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\obj\Debug\winPass11-guided-install.exe.manifest
 C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\obj\Debug\winPass11-guided-install.application
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\obj\Debug\winPass11-guided-install.csproj.AssemblyReference.cache
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\obj\Debug\winPass11_guided_install.Form1.resources
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\obj\Debug\winPass11_guided_install.Properties.Resources.resources
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\obj\Debug\winPass11-guided-install.csproj.GenerateResource.cache
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\obj\Debug\winPass11-guided-install.csproj.CoreCompileInputs.cache
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\obj\Debug\winPass11-guided-install.exe
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\obj\Debug\winPass11-guided-install.pdb
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\bin\Debug\winPass11-guided-install.exe.config
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\bin\Debug\winPass11-guided-install.exe.manifest
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\bin\Debug\winPass11-guided-install.application
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\bin\Debug\winPass11-guided-install.exe
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\bin\Debug\winPass11-guided-install.pdb
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\obj\Debug\winPass11-guided-install.exe.manifest
+C:\Users\cldoc\Source\Repos\WinPass11.Guided\winPass11-guided-install\obj\Debug\winPass11-guided-install.application
