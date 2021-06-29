@@ -1,0 +1,14 @@
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\bin\Debug\winPass11-guided-install.exe.config
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\bin\Debug\winPass11-guided-install.exe
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\bin\Debug\winPass11-guided-install.pdb
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\obj\Debug\winPass11-guided-install.csprojAssemblyReference.cache
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\obj\Debug\winPass11_guided_install.Form1.resources
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\obj\Debug\winPass11_guided_install.Properties.Resources.resources
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\obj\Debug\winPass11-guided-install.csproj.GenerateResource.cache
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\obj\Debug\winPass11-guided-install.csproj.CoreCompileInputs.cache
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\obj\Debug\winPass11-guided-install.exe
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\obj\Debug\winPass11-guided-install.pdb
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\bin\Debug\winPass11-guided-install.exe.manifest
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\bin\Debug\winPass11-guided-install.application
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\obj\Debug\winPass11-guided-install.exe.manifest
+C:\Users\Neal Shah\source\repos\winPass11-guided-install\winPass11-guided-install\obj\Debug\winPass11-guided-install.application
