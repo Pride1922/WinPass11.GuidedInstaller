@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace winPass11_guided_install.Properties
+namespace WinPass11.GuidedInstaller.Properties
 {
 
 
