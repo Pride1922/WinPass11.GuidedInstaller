@@ -35,7 +35,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.TextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,16 +52,17 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 74);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 108);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(559, 261);
+            this.pictureBox1.Size = new System.Drawing.Size(559, 227);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(84, 346);
+            this.label1.Location = new System.Drawing.Point(12, 346);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(145, 13);
             this.label1.TabIndex = 0;
@@ -100,6 +101,7 @@
             // 
             // button4
             // 
+            this.button4.Enabled = false;
             this.button4.Location = new System.Drawing.Point(325, 341);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
@@ -110,14 +112,16 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 32);
-            this.richTextBox1.Multiline = true;
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.richTextBox1.Location = new System.Drawing.Point(13, 33);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(559, 36);
+            this.richTextBox1.Size = new System.Drawing.Size(558, 69);
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "If you have previously installed windows 11 or attempted to, you should probably " +
     "click this button, if not, it doesn\'t hurt to press it anyways";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // Form1
             // 
@@ -132,6 +136,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Form1";
             this.Text = "WinPass11 Setup";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -150,7 +155,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
