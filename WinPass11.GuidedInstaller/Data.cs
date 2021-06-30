@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace winPass11_guided_install
+namespace WinPass11.GuidedInstaller
 {
+    // Save for stable release
     class Data
     {
         public void get (String type, int progress)

@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -65,11 +62,6 @@ namespace winPass11_guided_install
             Application.Exit();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -105,7 +97,7 @@ namespace winPass11_guided_install
             switch (progress)
             {
                 case 0:
-                    richTextBox1.Text = "If you have previously installed Windows 11 or attempted to, you should probably click this button, if not, it doesn't hurt to press it regardless.";
+                    richTextBox1.Text = "If you have previously installed Windows 11 using WinPass11, or attempted to, you should probably click this button, if not, it doesn't hurt to click it regardless.";
                     label1.Text = "Clean Previous Installations >";
                     button1.Text = "Clean";
                     button1.Enabled = true;
@@ -114,25 +106,24 @@ namespace winPass11_guided_install
                     label1.Text = "Apply registry tweaks >";
                     button1.Text = "Apply";
                     button1.Enabled = true;
-                    richTextBox1.Text = "This stage will apply tweaks in the registry, the tweaks applied here will bypass the TPM 2.0 and Secure Boot checks.";
-                    //pictureBox1.ImageLocation = "http://i3.ytimg.com/vi/tJWv-IZlFqw/hqdefault.jpg";
+                    richTextBox1.Text = "This stage will apply our registry tweaks. The tweaks applied here will bypass the TPM 2.0 and Secure Boot checks.";
                     break;
                 case 2:
                     button1.Enabled = false;
                     label1.Text = "Refer to image and box for directions ^";
-                    richTextBox1.Text = "Ah, now we are at the stage to update the system, this stage is simple,\n First go to Settings -> Update and security -> Windows Insider Program,\nand ensure you are in the Dev Channel.\nScroll up and click windows update in the left bar and click check now, if everything went well you should see downloading Windows 11 Insider Preview, but dont leave just yet, we still need to bypass the requirements!";
+                    richTextBox1.Text = "Now we are at the stage to update the system, this stage is simple.\nFirst go to Settings -> Update and security -> Windows Insider Program, and ensure you are in the Release Channel.\nRestart if you weren't. Scroll up and click windows update in the left bar and click check now, if everything went well\nyou should see downloading Windows 11 Insider Preview, but dont leave just yet, we still need to bypass the\nrequirements!";
                     break;
                 case 3:
                     button1.Enabled = true;
                     button1.Text = "Replace";
                     label1.Text = "Replace appraiserres.dll >";
-                    richTextBox1.Text = "Oh, how much longer must the agony conti-\nI mean hi there! so next you have to wait for the install to fail, sounds cruel right? Once the window that says install failed due to TPM 2.0, close that out and press this button.";
+                    richTextBox1.Text = "Next up, you will have to wait for the install to fail, sounds cruel right? Once the window that says install failed due to TPM 2.0,\nclose that out and click this button.";
                     button3.Text = "Next >";
                     break;
                 case 4:
                     button1.Enabled = false;
                     label1.Text = "Refer to image and box for directions ^";
-                    richTextBox1.Text = "This is the last step! All that needs to be done is for you to go back to the update screen and Click \"Check for Updates\" or \"Fix now\" or whatever there is in place of the button. After this is should work and it is safe to close this application!";
+                    richTextBox1.Text = "This is the last step! All that needs to be done is for you to go back to the update screen and click \"Check for Updates\" or \"Fix now\" or whatever there is in place of the button. After this is should work and it is safe to close this application!";
                     button3.Text = "Finish";
                     break;
                 case 5:
