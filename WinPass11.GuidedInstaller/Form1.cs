@@ -127,6 +127,7 @@ namespace winPass11_guided_install
                     button1.Text = "Replace";
                     label1.Text = "Replace appraiserres.dll >";
                     richTextBox1.Text = "Oh, how much longer must the agony conti-\nI mean hi there! so next you have to wait for the install to fail, sounds cruel right? Once the window that says install failed due to TPM 2.0, close that out and press this button.";
+                    button3.Text = "Next >";
                     break;
                 case 4:
                     button1.Enabled = false;
