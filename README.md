@@ -9,11 +9,11 @@
 
 ## Installation
 * Download the [latest release](https://github.com/project-winpass11/WinPass11.GuidedInstaller/releases).
-* Unzip the `Release.zip` or `Debug.zip` (depending if you need debug synbols) in file in file explorer.
+* Unzip the `{Version}_Debug.zip` in file in file explorer.
 * Execute the program named: `WinPass11.GuidedInstall.exe` **AS ADMINISTRATOR**. (if not asked by uac)
 
 ## Contributing
-When your machine is ready for development, take a look at CONTRIBUTING.md (SOON) to see how to get your changes merged in.
+When your machine is ready for development, take a look at CONTRIBUTING.md to see how to get your changes merged in.
 
 ## License
 WinPass11.WinService is licensed by project-winpass11 under the Apache License. (see LICENSE). The usage of third-party packages and programs is determined by the terms of their individual licenses.
